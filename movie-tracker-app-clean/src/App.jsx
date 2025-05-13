@@ -9,7 +9,6 @@ function App() {
   const [toWatch, setToWatch] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Local storage'dan favorileri, izledikleri ve izlenecekleri çek
   useEffect(() => {
     const storedFavorites = JSON.parse(localStorage.getItem("favorites")) || [];
     const storedWatched = JSON.parse(localStorage.getItem("watched")) || [];
@@ -20,7 +19,6 @@ function App() {
     setToWatch(storedToWatch);
   }, []);
 
-  // Favori, izledik ve izlenecek bilgilerini localStorage'a yaz
   useEffect(() => {
     localStorage.setItem("favorites", JSON.stringify(favorites));
     localStorage.setItem("watched", JSON.stringify(watched));
