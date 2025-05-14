@@ -1,8 +1,25 @@
- Movie Tracker App
+# Movie Tracker App
 
-Kullanıcının popüler filmleri keşfetmesini, arama yapmasını ve detaylarını görmesini sağlayan bir React uygulaması. ✨ Özellikler
+A modern React application that allows users to discover popular movies, search for specific titles, and view detailed information about them.
 
-- TMDB API ile en popüler filmleri gösterir.
-- Kullanıcı arama yapabilir.
-- Responsive ve modern bir arayüz sunar (TailwindCSS).
-- Vite ile hızlı geliştirme ortamı.
+## ✨ Features
+
+- Displays the most popular movies using the TMDB API
+- Search functionality for finding specific movies
+- Responsive and clean UI with Tailwind CSS
+- Lightning-fast development with Vite
+
+## 🚀 Technologies Used
+
+- React
+- Vite
+- TailwindCSS
+- TMDB API
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/havvakrbck1/movie-tracker-app.git
+cd movie-tracker-app
+npm install
+npm run dev
