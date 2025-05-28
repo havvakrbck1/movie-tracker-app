@@ -15,6 +15,11 @@ A modern React application that allows users to discover popular movies, search 
 - Vite
 - TailwindCSS
 - TMDB API
+- ## Ekran Görüntüleri
+
+![Screenshot](./Screenshot.png)
+![Screenshot(2)](./Screenshot(2).png)
+
 
 ## 📦 Installation
 
